@@ -24,7 +24,8 @@
 | <a name="module_ec2"></a> [ec2](#module\_ec2) | ./modules/ec2 | n/a |
 | <a name="module_vpc"></a> [vpc](#module\_vpc) | ./modules/vpc | n/a |
 | <a name="module_security_group"></a> [security_group](#module\_security_group) | ./modules/security_group | n/a |
-| <a name="module_public"></a> [public](#module\subnets\_public) | ./modules/subnets/public | n/a |
+| <a name="module_public_subnets"></a> [public](#module\subnets\_public) | ./modules/subnets/public | n/a |
+| <a name="module_private_subnets"></a> [public](#module\subnets\_private) | ./modules/subnets/private | n/a |
 ## Resources
 
 No resources.
