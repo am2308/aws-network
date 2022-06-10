@@ -1,4 +1,4 @@
-##This resource will create ec2 instance
+##This resource will create ec2 instance.
 resource "aws_instance" "default-ec2" {
   ami = var.ami
   instance_type = var.instance_type
