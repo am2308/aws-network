@@ -1,4 +1,4 @@
-##This resource will create vpc
+##This resource will create vpc.
 resource "aws_vpc" "default-vpc" {
   cidr_block           = var.cidr
   instance_tenancy     = "default"
