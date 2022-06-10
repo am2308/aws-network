@@ -1,4 +1,4 @@
-##This will create private subnet
+##This will create private subnet.
 resource "aws_subnet" "default-private-subnet" {
   count = length(var.private_cidrs)
 
