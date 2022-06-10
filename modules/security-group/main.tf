@@ -1,4 +1,4 @@
-##This resource will create security group to attch with ec2
+##This resource will create security group to attch with ec2.
 resource "aws_security_group" "default-ec2-sg" {
   name = var.security_group_name
   vpc_id = var.vpc_id
